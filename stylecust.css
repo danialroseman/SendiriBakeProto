@@ -1,0 +1,104 @@
+/* Your existing styles */
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+/*used in template*/
+.navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border: #545F71;
+    border-style: none none solid none;
+    display: flex; /* Set the navbar to use flexbox */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; /* Add padding to the navbar */
+}
+
+.brand h1 {
+    font-family: Verdana;
+    font-size: 36px;
+    color: #545F71;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex; /* Use flexbox for navigation links */
+    justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-links a {
+    color: #545F71;
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding as needed */
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.cart-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-family: Verdana;
+    color: #545F71;
+}
+/*used in template*/
+
+
+#productImages {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    gap: 20px; /* Add space between items */
+    justify-content: center;
+  }
+
+.product {
+    width: 250px; /* Set fixed width for each product item */
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+}
+
+.product img {
+    width: 250px; /* Ensure the image takes the full width of its container */
+    height: 250px;
+    object-fit: cover;
+}
+
+/*used in custproductpage */
+.product-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.editproduct-image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-left: 200px;
+    max-width: 100%; /* Ensure the image does not exceed its container */
+  }
+  
+.editproduct-image {
+    flex: 0 0 50%; /* Adjust the width of the image container */
+    
+  }
+  
+.editproduct-details {
+    flex: 0 0 40%; /* Adjust the width of the details container */
+    padding-left: 50px; /* Add padding to create space between image and details */
+  }
+
+.back-button{
+    display: flex;
+    padding-left: 50px;
+    font-family: Verdana;
+    color: #545F71;
+  }
+
+/*used in custproductpage */
